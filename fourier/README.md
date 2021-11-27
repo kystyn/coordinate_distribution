@@ -11,7 +11,7 @@
 
 ```console
 pip install -r requirements.txt
-python3 -m fourier -i path/to/input -o path/to/out>
+python3 -m fourier -i path/to/input -o path/to/out
 ```
 
 Также описание аргументов для модуля fourier можно получить по команде:
