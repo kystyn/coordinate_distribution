@@ -9,9 +9,17 @@
 
 ## Установка
 
-<pip install -r requirements.txt
-python -m fourier -i path/to/input -o path/to/out>
+```console
+$ pip install -r requirements.txt
+$ python3 -m fourier -i path/to/input -o path/to/out>
+```
 
 Также описание аргументов для модуля fourier можно получить по команде:
 
-<python -m fourier --help>
+```console
+python3 -m fourier --help
+```
+
+## Дополнения
+1. $ вводить не надо. Это символ, который указывает на то, что модуль запускается из-под пользователя, а не администратора
+2. Если ```python3``` не найден, можно попробовать ```python```.
